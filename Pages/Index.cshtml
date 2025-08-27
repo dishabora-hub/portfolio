@@ -1,0 +1,232 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Portfolio";
+}
+
+<!-- Hero Section -->
+<section id="home" class="d-flex flex-column justify-content-center align-items-center text-center vh-100 text-light">
+    <h1 class="display-3 fw-bold animate__animated animate__fadeInDown"> 👋 Hey, I'm Disha Bora</h1>
+    <p class="lead animate__animated animate__fadeInUp animate__delay-1s">Aspiring Software Developer| Code. Create. Innovate.</p>
+    <a href="#about" class="btn btn-secondary mt-3 animate__animated animate__fadeInUp animate__delay-2s">Explore More</a>
+    </section>
+
+<!-- About Me -->
+<section id="about" class="container py-5">
+    <h2 class="text-center mb-4">About Me</h2>
+    <p class="text-center fade-in">
+        I recently graduated with a BCA in 2025 and am currently pursuing my MCA from IGNOU.
+        I have a strong interest in software development, with skills in C#, .NET, Python, HTML, CSS, JS, and Java.
+        I’m passionate about building projects that solve real-world problems.
+        Open to work and seeking opportunities in software development and web applications.
+    </p>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Skills</h2>
+        <div class="row text-center">
+            <div class="col-md-3 fade-in"><h5>C# / .NET</h5></div>
+            <div class="col-md-3 fade-in"><h5>Python / Java</h5></div>
+            <div class="col-md-3 fade-in"><h5>HTML / CSS / JavaScript</h5></div>
+            <div class="col-md-3 fade-in"><h5>MySQL</h5></div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Work Experience -->
+<section id="experience" class="container py-5">
+    <h2 class="text-center mb-4">Work Experience</h2>
+    <div class="timeline fade-in">
+        <div class="mb-4">
+            <h5>Java Development Intern – Encryptix</h5>
+            <p class="text-muted">June 2024 – Aug 2024</p>
+            <p>
+                Worked on projects like Number Game, Student Grade Calculator, and ATM Simulation using Java.
+                Learned practical application of OOP concepts and debugging.
+            </p>
+        </div>
+      
+
+        <!-- Internship Projects -->
+        <section id="internship-projects" class="container py-5">
+            <h2 class="text-center mb-4">Internship Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">ATM Simulator</h5>
+                            <p class="card-text">Java-based project simulating ATM operations like withdrawal, balance, and transfer.</p>
+                            <a href="https://github.com/dishabora-hub/ENCRYPTIX" target="_blank"
+                               class="btn btn-dark btn-sm"><i class="bi bi-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Grade Calculator</h5>
+                            <p class="card-text">Simple tool built in Java to calculate student grades from input scores.</p>
+                            <a href="https://github.com/dishabora-hub/ENCRYPTIX" target="_blank"
+                               class="btn btn-dark btn-sm"><i class="bi bi-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Number Game</h5>
+                            <p class="card-text">Java-console based project where the program guides the user to guess the correct number.</p>
+                            <a href="https://github.com/dishabora-hub/ENCRYPTIX" target="_blank"
+                               class="btn btn-dark btn-sm"><i class="bi bi-github"></i> GitHub</a>                          
+
+                               
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Add Bootstrap Icons for GitHub icon -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    </div>
+</section>
+
+<!-- Projects -->
+
+        <section id="projects" class="container py-5">
+            <h2 class="text-center mb-4">Projects</h2>
+            <div class="row">
+                <!-- Fire Guardian -->
+                <div class="col-md-6 mb-3 fade-in">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Fire Guardian</h5>
+                            <p class="card-text">
+                                Developed a real-time fire detection web application using YOLOv5, OpenCV, and Flask.
+                                Integrated computer vision to identify fire in live video streams with bounding boxes and confidence scores.
+                            </p>
+                            <a href="https://github.com/dishabora-hub/Major_Project" target="_blank"
+                               class="btn btn-dark btn-sm">
+                                <i class="bi bi-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FitFusion -->
+                <div class="col-md-6 mb-3 fade-in">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">FitFusion</h5>
+                            <p class="card-text">
+                                A fitness management system with diet plans, workouts, and gym dashboards built in Django.
+                            </p>
+                            <a href="https://github.com/dishabora-hub/Minor-project" target="_blank"
+                               class="btn btn-dark btn-sm">
+                                <i class="bi bi-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</section>
+
+<!-- Contact / Footer -->
+<footer id="contact" class="bg-dark text-light text-center p-4">
+    <p>Let’s Connect🤝 </p>
+    <p>
+        <a href="mailto:dishabora@gmail.com" class="text-light">dishabora@gmail.com</a> |
+        <a href="https://www.linkedin.com/in/disha-bora-215430304" target="_blank" class="text-light">LinkedIn</a> |
+        <a href="https://github.com/dishabora-hub/Resume/blob/main/Resume.pdf" target="_blank" class="text-light">View Resume</a> |      
+        <span>+91-8920111288</span>
+    </p>
+    <p>© 2025 Disha Bora | Built with ASP.NET Core & C#</p>
+</footer>
+
+<!-- CSS Styling -->
+<style>
+    /* Apply background image to the entire page */
+    body {
+        background: url('@Url.Content("~/images/bg.jpeg")') no-repeat center center fixed;
+        background-size: cover;
+        color: white; /* default text color for readability */
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Hero Section */
+    #home {
+        position: relative;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+        #home h1, #home p, #home a {
+            position: relative;
+            z-index: 2;
+        }
+
+
+    /* Fade-in effect */
+    .fade-in {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 1s ease-in-out;
+    }
+
+        .fade-in.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+    /* Smooth scrolling */
+    html {
+        scroll-behavior: smooth;
+    }
+
+    /* Make project and internship cards dark for readability */
+    .card {
+        background-color: rgba(0, 0, 0, 0.85); /* almost black, slightly transparent */
+        color: white; /* ensures text is visible */
+        border: none; /* optional: remove default card border */
+    }
+
+        /* Optional: darken card on hover */
+        .card:hover {
+            background-color: rgba(0, 0, 0, 0.95);
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+</style>
+
+<!-- Animation Script -->
+<script>
+    // Fade-in on scroll
+    const elements = document.querySelectorAll('.fade-in');
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+            }
+        });
+    });
+    elements.forEach(el => observer.observe(el));
+</script>
+
+<!-- External Animation Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
